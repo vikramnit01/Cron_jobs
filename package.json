@@ -1,0 +1,19 @@
+{
+  "name": "job-scheduler",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "In-memory job scheduler driven by JSON job files",
+  "dependencies": {
+    "chokidar": "^6.0.0",
+    "cron-parser": "^5.10.2"
+  },
+  "engines": {
+    "node": ">=22.22"
+  }
+}
